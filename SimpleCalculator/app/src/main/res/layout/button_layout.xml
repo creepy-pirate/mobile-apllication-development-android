@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="5">
+
+    <Button
+        android:id="@+id/clear"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/clearTxt" />
+
+    <Button
+        android:id="@+id/backspace"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/backspace" />
+
+    <Button
+        android:id="@+id/percentage"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/percentageSymbol" />
+
+    <Button
+        android:id="@+id/divide"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/divideSymbol" />
+
+    <Button
+        android:id="@+id/seven"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/sevenNum" />
+
+    <Button
+        android:id="@+id/eight"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/eightNum" />
+
+    <Button
+        android:id="@+id/nine"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/nineNum" />
+
+    <Button
+        android:id="@+id/multiply"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/multiplySymbol" />
+
+    <Button
+        android:id="@+id/four"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/fourNum" />
+
+    <Button
+        android:id="@+id/five"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/fiveNum" />
+
+    <Button
+        android:id="@+id/six"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/sixNum" />
+
+    <Button
+        android:id="@+id/minus"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/minusSymbol" />
+
+    <Button
+        android:id="@+id/one"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/oneNum" />
+
+    <Button
+        android:id="@+id/two"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/twoNum" />
+
+    <Button
+        android:id="@+id/three"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/threeNum" />
+
+    <Button
+        android:id="@+id/plus"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/plusSymbol" />
+
+    <Button
+        android:id="@+id/doubleZero"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/doubleZeroNum" />
+
+    <Button
+        android:id="@+id/dot"
+        style="@style/ButtonStyle.Operator"
+        android:text="@string/dotSymbol" />
+
+    <Button
+        android:id="@+id/zero"
+        style="@style/ButtonStyle.Number"
+        android:text="@string/zeroNum" />
+
+    <Button
+        android:id="@+id/equals"
+        style="@style/ButtonStyle.Operator"
+        android:background="@color/app_orange"
+        android:text="@string/equalsSymbol" />
+
+</GridLayout>
